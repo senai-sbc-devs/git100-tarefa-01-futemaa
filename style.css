@@ -16,8 +16,24 @@ footer > div {
 
 main {
     display: flex;
+    flex-direction: column;
 }
 
 main > div {
     margin: 10px;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+    background-color: #5b5454;
+    box-shadow: 1px 1px 1px 1px #000000;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+
+div {
+    padding: 1%;
 }
