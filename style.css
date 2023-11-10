@@ -1,0 +1,23 @@
+header > div {
+    background-color: #a52a2a;
+
+}
+
+header > div > h1{
+    margin-bottom: -10px;
+}
+main > div { 
+    background-color: #612aa5;
+}
+
+footer > div {
+    background-color: #00ffff;
+}
+
+main {
+    display: flex;
+}
+
+main > div {
+    margin: 10px;
+}
