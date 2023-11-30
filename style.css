@@ -1,17 +1,19 @@
-header > div {
-    background-color: #a52a2a;
-
+header>div {
+    background-color: #3c3897;
+    border-radius: 10px;
 }
 
-header > div > h1{
+header>div>h1 {
     margin-bottom: -10px;
 }
-main > div { 
-    background-color: #612aa5;
+
+main>div {
+    border: solid 1px black;
+    box-shadow:  0 10px 6px -6px #777;
 }
 
-footer > div {
-    background-color: #00ffff;
+footer>div {
+    background-color: #3c3897;
 }
 
 main {
@@ -19,15 +21,16 @@ main {
     flex-direction: column;
 }
 
-main > div {
+main>div {
     margin: 10px;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .center {
     justify-content: center;
     text-align: center;
-    background-color: #5b5454;
+    background-color: #878383;
     box-shadow: 1px 1px 1px 1px #000000;
     width: fit-content;
     margin: auto;
@@ -36,4 +39,10 @@ main > div {
 
 div {
     padding: 1%;
+}
+
+.footer {
+    justify-content: end;
+    text-align: right;
+    border-radius: 10px;
 }
